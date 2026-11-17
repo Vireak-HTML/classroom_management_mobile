@@ -1,0 +1,60 @@
+
+# ==========================================
+# ENVIRONMENT & SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# Shared local configuration
+supabase.env.json
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==========================================
+# IDE & EDITOR
+# ==========================================
+
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# TEMPORARY & LOG FILES
+# ==========================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.orig
+
+# ==========================================
+# GENERATED FILES
+# ==========================================
+
+coverage/
+*.lock.tmp
+
+# ==========================================
+# LOCAL DEVELOPMENT
+# ==========================================
+
+*.local
